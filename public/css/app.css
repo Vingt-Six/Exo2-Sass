@@ -6324,4 +6324,59 @@ header img {
 .imagecards .troiscarte div p {
   font-size: 1vw;
 }
+
+.footerbot {
+  margin-top: 8%;
+  height: 16vw;
+  background-color: #3676bb;
+  text-align: center;
+  color: #afc4dc;
+}
+
+.footerbot h2 {
+  padding-top: 2%;
+  font-weight: 100;
+}
+
+.footerbot p {
+  font-size: 0.9vw;
+  width: 55%;
+  margin: 0 auto;
+}
+
+.footerbot div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2%;
+}
+
+.footerbot div i {
+  font-size: 2.5vw;
+  margin: 0 1%;
+  opacity: 50%;
+}
+
+.copyfooter {
+  height: 3vw;
+  background-color: #363b47;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.copyfooter span {
+  font-size: 0.8vw;
+  opacity: 50%;
+}
 /*# sourceMappingURL=app.css.map */
