@@ -6267,4 +6267,61 @@ header img {
 .cards div span {
   color: #26a2cc;
 }
+
+.imagecards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3% 11%;
+}
+
+.imagecards .Rwork {
+  width: 40%;
+  font-size: 0.85vw;
+  padding-top: 1%;
+  padding-right: 4%;
+}
+
+.imagecards .Rwork .loremwork {
+  opacity: 70%;
+}
+
+.imagecards .Rwork button {
+  background-color: #26a2cc;
+  color: #fff;
+  border: none;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.imagecards .troiscarte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  margin-left: 5%;
+}
+
+.imagecards .troiscarte div {
+  background-color: #38485f;
+  width: 20vw;
+  height: 18vw;
+  margin: 0 0.2vw;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+}
+
+.imagecards .troiscarte div img {
+  width: 100%;
+}
+
+.imagecards .troiscarte div h2 {
+  color: #fff;
+  font-size: 1.3vw;
+}
+
+.imagecards .troiscarte div p {
+  font-size: 1vw;
+}
 /*# sourceMappingURL=app.css.map */
