@@ -1,6 +1,13 @@
 .cards
     display: flex
     margin: 0 10%
+    //mediaqueries tablette
+    @media screen and ( min-width: 768px ) and ( max-width: 1023px )
+        margin: 0 2%
+    //mediaqueries mobile
+    @media screen and ( min-width: 375px ) and ( max-width: 767px )
+        display: block
+        margin: 0 auto
     div
         width: 15vw
         height: 17vw
@@ -10,6 +17,20 @@
         border-radius: 5px
         font-size: 0.8vw
         padding: 0 1%
+        //mediaqueries laptop
+        @media screen and ( min-width: 1024px ) and ( max-width: 1439px )
+            height: 18.5vw
+        //mediaqueries tablette
+        @media screen and ( min-width: 768px ) and ( max-width: 1023px )
+            width: 20vw
+            height: 27vw
+            font-size: 1.2vw
+        //mediaqueries mobile
+        @media screen and ( min-width: 375px ) and ( max-width: 767px )
+            width: 60%
+            height: 60vw
+            font-size: 3vw
+            margin: 5% auto
         .bgfontA
             width: 60px
             height: 60px
@@ -20,6 +41,12 @@
             font-size: 1.7vw
             color: #3676bb
             padding-top: 25% 
+            //mediaqueries tablette
+            @media screen and ( min-width: 768px ) and ( max-width: 1023px )
+                font-size: 4vw
+            //mediaqueries mobile
+            @media screen and ( min-width: 375px ) and ( max-width: 767px )
+                font-size: 8vw
         span
             color: #26a2cc
             

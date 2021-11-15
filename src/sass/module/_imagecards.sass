@@ -1,11 +1,28 @@
 .imagecards
     display: flex
     margin: 3% 11%
+    //mediaqueries tablette
+    @media screen and ( min-width: 768px ) and ( max-width: 1023px )
+        display: block
+        margin: 3% 5%
+    //mediaqueries mobile
+    @media screen and ( min-width: 375px ) and ( max-width: 767px )
+        display: block
+        margin: 3% 1%
     .Rwork
         width: 40%
         font-size: 0.85vw
         padding-top: 1%
         padding-right: 4%
+        //mediaqueries tablette
+        @media screen and ( min-width: 768px ) and ( max-width: 1023px )
+            width: 100%
+            font-size: 1.5vw
+        //mediaqueries mobile
+        @media screen and ( min-width: 375px ) and ( max-width: 767px )
+            width: 95%
+            font-size: 3vw
+            text-align: center
         .loremwork
             opacity: 70%
         button
@@ -14,10 +31,30 @@
             border: none
             height: 50px
             border-radius: 5px
+            //mediaqueries laptop
+            @media screen and ( min-width: 1024px ) and ( max-width: 1439px )
+                height: 30px
+                font-size: 1vw
+            //mediaqueries tablette
+            @media screen and ( min-width: 768px ) and ( max-width: 1023px )
+                height: 30px
+            //mediaqueries mobile
+            @media screen and ( min-width: 375px ) and ( max-width: 767px )
+                height: 30px
+                width: 60%
     .troiscarte
         display: flex
         width: 60%
         margin-left: 5%
+        //mediaqueries
+        @media screen and ( min-width: 768px ) and ( max-width: 1023px )
+            width: 100%
+            margin-left: 0
+            justify-content: center
+        //mediaqueries mobile
+        @media screen and ( min-width: 375px ) and ( max-width: 767px )
+            width: 100%
+            margin-left: 0
         div
             background-color: #38485f
             width: 20vw
@@ -26,10 +63,33 @@
             border-bottom-left-radius: 5px
             border-bottom-right-radius: 5px
             text-align: center
+            //mediaqueries
+            @media screen and ( min-width: 768px ) and ( max-width: 1023px )
+                margin: 5vw 2vw
+                height: 27vw
+                width: 25vw
+            //mediaqueries mobile
+            @media screen and ( min-width: 375px ) and ( max-width: 767px )
+                margin: 5vw 1vw
+                width: 100%
+                height: 40vw
             img
                 width: 100%
             h2
                 color: #fff
                 font-size: 1.3vw
+                //mediaqueries
+                @media screen and ( min-width: 768px ) and ( max-width: 1023px )
+                    font-size: 1.5vw
+                //mediaqueries mobile
+                @media screen and ( min-width: 375px ) and ( max-width: 767px )
+                    font-size: 3vw
             p
                 font-size: 1vw
+                //mediaqueries tablette
+                @media screen and ( min-width: 768px ) and ( max-width: 1023px )
+                    font-size: 1.3vw
+                    margin: 0 1%
+                //mediaqueries mobile
+                @media screen and ( min-width: 375px ) and ( max-width: 767px )
+                    font-size: 2vw

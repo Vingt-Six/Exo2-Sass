@@ -6161,14 +6161,39 @@ header section {
   height: 4.5vw;
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  header section {
+    height: 6vw;
+  }
+}
+
 header section h1 {
   font-size: 2vw;
   margin-top: 20%;
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  header section h1 {
+    display: none;
+  }
+}
+
 header section nav {
   width: 40%;
   padding-top: 1%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header section nav {
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  header section nav {
+    padding-top: 0;
+    width: 100%;
+  }
 }
 
 header section ul {
@@ -6180,12 +6205,30 @@ header section ul {
   padding-left: 0;
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  header section ul {
+    margin: 2vw 0;
+  }
+}
+
 header section ul li {
   width: 15%;
   text-align: center;
-  font-weight: 700;
+  font-weight: 100;
   font-size: 0.8vw;
   opacity: 50%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header section ul li {
+    font-size: 1vw;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  header section ul li {
+    font-size: 2vw;
+  }
 }
 
 header section ul li:hover {
@@ -6207,6 +6250,13 @@ header img {
   margin-top: -2.4vw;
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .anderson {
+    height: 25vw;
+    margin-top: -5vw;
+  }
+}
+
 .anderson div {
   width: 70%;
   text-align: center;
@@ -6216,6 +6266,12 @@ header img {
 .anderson div p {
   padding-top: 5%;
   font-size: 1.8vw;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .anderson div p {
+    font-size: 2.8vw;
+  }
 }
 
 .anderson div p .prog {
@@ -6239,6 +6295,19 @@ header img {
   margin: 0 10%;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cards {
+    margin: 0 2%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .cards {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 .cards div {
   width: 15vw;
   height: 17vw;
@@ -6248,6 +6317,29 @@ header img {
   border-radius: 5px;
   font-size: 0.8vw;
   padding: 0 1%;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .cards div {
+    height: 18.5vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cards div {
+    width: 20vw;
+    height: 27vw;
+    font-size: 1.2vw;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .cards div {
+    width: 60%;
+    height: 60vw;
+    font-size: 3vw;
+    margin: 5% auto;
+  }
 }
 
 .cards div .bgfontA {
@@ -6264,6 +6356,18 @@ header img {
   padding-top: 25%;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cards div i {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .cards div i {
+    font-size: 8vw;
+  }
+}
+
 .cards div span {
   color: #26a2cc;
 }
@@ -6275,11 +6379,40 @@ header img {
   margin: 3% 11%;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .imagecards {
+    display: block;
+    margin: 3% 5%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .imagecards {
+    display: block;
+    margin: 3% 1%;
+  }
+}
+
 .imagecards .Rwork {
   width: 40%;
   font-size: 0.85vw;
   padding-top: 1%;
   padding-right: 4%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .imagecards .Rwork {
+    width: 100%;
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .imagecards .Rwork {
+    width: 95%;
+    font-size: 3vw;
+    text-align: center;
+  }
 }
 
 .imagecards .Rwork .loremwork {
@@ -6294,12 +6427,49 @@ header img {
   border-radius: 5px;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .imagecards .Rwork button {
+    height: 30px;
+    font-size: 1vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .imagecards .Rwork button {
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .imagecards .Rwork button {
+    height: 30px;
+    width: 60%;
+  }
+}
+
 .imagecards .troiscarte {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 60%;
   margin-left: 5%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .imagecards .troiscarte {
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .imagecards .troiscarte {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 .imagecards .troiscarte div {
@@ -6312,6 +6482,22 @@ header img {
   text-align: center;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .imagecards .troiscarte div {
+    margin: 5vw 2vw;
+    height: 27vw;
+    width: 25vw;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .imagecards .troiscarte div {
+    margin: 5vw 1vw;
+    width: 100%;
+    height: 40vw;
+  }
+}
+
 .imagecards .troiscarte div img {
   width: 100%;
 }
@@ -6321,8 +6507,33 @@ header img {
   font-size: 1.3vw;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .imagecards .troiscarte div h2 {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .imagecards .troiscarte div h2 {
+    font-size: 3vw;
+  }
+}
+
 .imagecards .troiscarte div p {
   font-size: 1vw;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .imagecards .troiscarte div p {
+    font-size: 1.3vw;
+    margin: 0 1%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .imagecards .troiscarte div p {
+    font-size: 2vw;
+  }
 }
 
 .footerbot {
@@ -6331,6 +6542,13 @@ header img {
   background-color: #3676bb;
   text-align: center;
   color: #afc4dc;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footerbot {
+    margin-top: 4%;
+    height: 18vw;
+  }
 }
 
 .footerbot h2 {
@@ -6342,6 +6560,12 @@ header img {
   font-size: 0.9vw;
   width: 55%;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footerbot p {
+    font-size: 1.2vw;
+  }
 }
 
 .footerbot div {
