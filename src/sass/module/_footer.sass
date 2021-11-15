@@ -8,9 +8,13 @@
     @media screen and ( min-width: 768px ) and ( max-width: 1023px )
         margin-top: 4%
         height: 18vw
+    @media screen and ( min-width: 375px ) and ( max-width: 767px )
+        height: 30vw
     h2
         padding-top: 2%
         font-weight: 100
+        @media screen and ( min-width: 375px ) and ( max-width: 767px )
+            font-size: 4vw
     p
         font-size: 0.9vw
         width: 55%
@@ -18,14 +22,21 @@
         //mediaqueries tablette
         @media screen and ( min-width: 768px ) and ( max-width: 1023px )
             font-size: 1.2vw
+        @media screen and ( min-width: 375px ) and ( max-width: 767px )
+            font-size: 2vw
+            width: 80%
     div
         display: flex
         justify-content: center
         margin-top: 2%
+        @media screen and ( min-width: 375px ) and ( max-width: 767px )
+            margin-top: 5%
         i
             font-size: 2.5vw
             margin: 0 1%
             opacity: 50%
+            @media screen and ( min-width: 375px ) and ( max-width: 767px )
+                font-size: 5vw
 .copyfooter
     height: 3vw
     background-color: #363b47
@@ -33,6 +44,10 @@
     display: flex
     align-items: center
     justify-content: center
+    @media screen and ( min-width: 375px ) and ( max-width: 767px )
+        height: 8vw
     span
         font-size: 0.8vw
         opacity: 50%
+        @media screen and ( min-width: 375px ) and ( max-width: 767px )
+            font-size: 2vw

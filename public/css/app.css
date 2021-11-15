@@ -6551,9 +6551,21 @@ header img {
   }
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .footerbot {
+    height: 30vw;
+  }
+}
+
 .footerbot h2 {
   padding-top: 2%;
   font-weight: 100;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .footerbot h2 {
+    font-size: 4vw;
+  }
 }
 
 .footerbot p {
@@ -6568,6 +6580,13 @@ header img {
   }
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .footerbot p {
+    font-size: 2vw;
+    width: 80%;
+  }
+}
+
 .footerbot div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6578,10 +6597,22 @@ header img {
   margin-top: 2%;
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .footerbot div {
+    margin-top: 5%;
+  }
+}
+
 .footerbot div i {
   font-size: 2.5vw;
   margin: 0 1%;
   opacity: 50%;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .footerbot div i {
+    font-size: 5vw;
+  }
 }
 
 .copyfooter {
@@ -6599,8 +6630,20 @@ header img {
           justify-content: center;
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .copyfooter {
+    height: 8vw;
+  }
+}
+
 .copyfooter span {
   font-size: 0.8vw;
   opacity: 50%;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .copyfooter span {
+    font-size: 2vw;
+  }
 }
 /*# sourceMappingURL=app.css.map */
