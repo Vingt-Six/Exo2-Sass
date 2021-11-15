@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
 * {
   font-family: 'Open Sans', sans-serif;
 }
@@ -6147,6 +6147,7 @@ readers do not read off random characters that represent icons */
 
 body {
   margin: 0;
+  color: #7a8491;
 }
 
 header section {
@@ -6157,7 +6158,7 @@ header section {
       justify-content: space-around;
   background-color: #363b47;
   color: #fff;
-  height: 5vw;
+  height: 4.5vw;
 }
 
 header section h1 {
@@ -6184,6 +6185,7 @@ header section ul li {
   text-align: center;
   font-weight: 700;
   font-size: 0.8vw;
+  opacity: 50%;
 }
 
 header section ul li:hover {
@@ -6192,9 +6194,41 @@ header section ul li:hover {
   background-color: #3676bb;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
+  opacity: 100%;
 }
 
 header img {
   width: 100%;
+}
+
+.anderson {
+  height: 20vw;
+  background-color: #e8e6e0;
+  margin-top: -2.4vw;
+}
+
+.anderson div {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.anderson div p {
+  padding-top: 5%;
+  font-size: 1.8vw;
+}
+
+.anderson div p .prog {
+  color: #fff;
+  background-color: #26a2cc;
+}
+
+.anderson div p .complexity {
+  color: #26a2cc;
+  font-weight: 900;
+}
+
+.anderson div .buzz {
+  margin-top: -4%;
 }
 /*# sourceMappingURL=app.css.map */
